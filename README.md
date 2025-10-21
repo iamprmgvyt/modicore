@@ -1,4 +1,4 @@
-#ModiCore Bot
+# ModiCore Bot
 
 
 ## Quick start
@@ -11,4 +11,5 @@
 ## Notes
 - Slash commands are registered globally (change in `deploy-commands.js` if you prefer guild-scoped).
 - Groq usage: be mindful of quota and cost; scanning many messages costs tokens.
+
 - Punishment levels: configured in `utils/modLogger.js` (warn thresholds).
