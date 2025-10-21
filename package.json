@@ -1,0 +1,22 @@
+{
+"name": "mod-bot",
+"version": "1.0.0",
+"description": "Discord Moderator Bot (Node.js, discord.js v14, MongoDB, Groq)",
+"main": "index.js",
+"scripts": {
+"start": "node index.js",
+"dev": "nodemon index.js",
+"deploy": "node deploy-commands.js"
+},
+"dependencies": {
+"@discordjs/rest": "^1.6.0",
+"axios": "^1.4.0",
+"discord-api-types": "^0.37.34",
+"discord.js": "^14.14.0",
+"dotenv": "^16.0.0",
+"mongoose": "^7.5.0"
+},
+"devDependencies": {
+"nodemon": "^2.0.22"
+}
+}
